@@ -18,13 +18,15 @@ a {
     font-size: 2.5rem;
 }
 .recipe-container {
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    text-align: center;
 }
 .recipe-link {
-    max-width:fit-content;
+    max-width: fit-content;
     padding: 0 1.75rem;
+    display: inline-block; 
 } 
 .recipe-name {
     text-align: center;
